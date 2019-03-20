@@ -1,0 +1,42 @@
+body {
+    background-color: #adadad;    
+}
+
+#date-mike {
+    width: 80%;
+    margin-top: 20px;
+}
+
+#jumbotron {
+    background-image: url(../images/dunder-mifflin.jpg);
+    background-size: 100% 100%;
+    width: 80%;
+    /* min-width: 552px; */
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#background-white {
+    background-color: white;
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#hangman {
+    border: 2px solid black;
+    /* height: 300px; */
+    padding-top: auto;
+    padding-bottom: auto;
+}
+
+@media screen and (max-width: 768px) {
+
+    #jumbotron {
+        margin-left: 0;
+        margin-right: 0;
+
+        width: 100%;
+    }
+    
+}

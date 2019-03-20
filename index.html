@@ -15,32 +15,51 @@
 <body>
 
     <div class="container">
-        
-        <div class="jumbotron text-center">
-            <h1 class="display-4">*Themed* Hangman!</h1>
-            <p class="lead">Press the button below to begin a new game</p>
-            <hr class="my-4">
+
+        <div class="jumbotron text-center" id="jumbotron">
+            <div id="background-white">
+                <h1 class="display-4"><strong>The Office</strong> Hangman</h1>
+                <p class="lead">Press the button below to begin a new game</p>
+            </div>
+            <br>
             <a class="btn btn-primary btn-lg" role="button" id="start-button">Start New Game!</a>
         </div>
 
         <div class="row">
 
-            <div class="col-md-6 text-center">
+            <div class="col-lg-2"></div>
 
+            <div class="col-lg-4 col-md-6 col-sm-6 text-center">
+                <div id="musicControls" class="text-center">
+                    <button class="btn btn-warning btn-xs" id="theme-button">
+                        <span class="fa fa-music"></span> Play Theme!</button>
+                    <button class="btn btn-dark btn-xs" id="pause-button">
+                        <span class="fa fa-pause"></span> Pause Song</button>
+                </div>
+
+                <img src="assets/images/date-mike.jpg" alt="Date Mike" id="date-mike">
             </div>
 
-            <div class="col-md-6 text-center">
-                <div id="instructions">hi</div>
+            <div class="col-lg-4 col-md-6 col-sm-6 text-center" id="hangman">
+                <div id="instructions"></div>
+                <br>
                 <div id="wins-losses"></div>
+                <br>
                 <div id="current-word"></div>
                 <div id="shadow-word"></div>
+                <br>
                 <div id="guesses-remaining"></div>
+                <div id="remaining-line"></div>
+                <br>
                 <div id="already-guessed"></div>
+                <div id="letters-line"></div>
             </div>
+
+            <div class="col-lg-2"></div>
 
         </div>
 
-  </div>>
+    </div>>
 
 
 </body>
